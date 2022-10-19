@@ -16,8 +16,6 @@ func main() {
 	parsedByJson, _ := converter.Convert[map[string]any](boris)
 	log.Println(parsedByJson) // map[age:54 name:Boris]
 
-	parsedBySome, _ := converter.Convert[map[string]any](boris, func(c *converter.Params) {
-		c.Tag = "some"
-	})
+	parsedBySome, _ := converter.Convert[map[string]any](boris, converter.WithTag("some"))
 	log.Println(parsedBySome) // map[Age:54 Name:Boris]
 }

@@ -5,10 +5,6 @@ import (
 	"github.com/semichkin-gopkg/configurator"
 )
 
-type Params struct {
-	Tag string
-}
-
 func Convert[T any](
 	source any,
 	updaters ...configurator.Updater[Params],
