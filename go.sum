@@ -1,4 +1,4 @@
 github.com/mitchellh/mapstructure v1.5.0 h1:jeMsZIYE/09sWLaz43PL7Gy6RuMjD2eJVyuac5Z2hdY=
 github.com/mitchellh/mapstructure v1.5.0/go.mod h1:bFUtVrKA4DC2yAKiSyO/QUcy7e+RRV2QTWOzhPopBRo=
-github.com/semichkin-gopkg/configurator v0.0.1 h1:MBa2VMMlQ1XXKFdyFR2g5QieYy5kqpVAajO0CF87O4E=
-github.com/semichkin-gopkg/configurator v0.0.1/go.mod h1:Yj/2OmffpEr6oLdJxzCSAfv/EVID24t4TlGaU+5w1us=
+github.com/semichkin-gopkg/conf v0.0.3 h1:Krrhc8B/GXhniLjYoazrz7KwR5/zLxhYqu+SfkezRF8=
+github.com/semichkin-gopkg/conf v0.0.3/go.mod h1:hcOYG4uFFkyVdK429d+vJjN8Hd8AWYWKBKTAcYL1H3E=
