@@ -43,3 +43,7 @@ func FromJSON[T any](bytes []byte) (T, error) {
 	var data T
 	return data, json.Unmarshal(bytes, &data)
 }
+
+func Pointer[T any](t T) *T {
+	return &t
+}
